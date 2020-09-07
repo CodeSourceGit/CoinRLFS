@@ -1,7 +1,9 @@
 # CoinRLFS
 
 environment:
+
 torch 0.4.0
+
 python 3.6
 
 # train model
