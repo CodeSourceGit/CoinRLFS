@@ -7,7 +7,7 @@ environment:
 
 # train model
 
-* python main_train.py -d xxx -model xxx -p xxx -it xxx -it xxx -ft xxx -od xxx
+* python main_train.py -d xxx -model xxx -p xxx -it xxx -ft xxx -od xxx
 
 
 explanations:
@@ -19,3 +19,6 @@ explanations:
 * -ft: choose to use Random Forest Trainer
 * -od: output file name
 
+example:
+
+* python main_train.py -d spam -model dt -p 1 -it 1 -ft 0 -od result.txt
